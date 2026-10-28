@@ -1,6 +1,6 @@
 /* Roostak starter — configure Supabase values before enabling account features. */
-const SUPABASE_URL = "https://YOUR-PROJECT.supabase.co";
-const SUPABASE_ANON_KEY = "YOUR-SUPABASE-ANON-KEY";
+const SUPABASE_URL = "https://livlnryfpbsmsnzixxqy.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_CSFsOwJ2-ekzxrKMN5ceQA_MP2KXsbZ";
 const CATEGORIES = ["خوراکی محلی", "عرقیجات و سرکه", "محصولات کشاورزی", "خدمات حضوری", "صنایع دستی"];
 const INTERNAL_EMAIL_DOMAIN = "users.roostak.invalid";
 const PLACEHOLDER_IMAGE = "data:image/svg+xml;charset=UTF-8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><rect width="300" height="300" fill="#e7ebe2"/><path d="M60 220l60-70 40 45 35-40 45 65z" fill="#b7c8b4"/><circle cx="196" cy="92" r="24" fill="#d9a441"/></svg>');
