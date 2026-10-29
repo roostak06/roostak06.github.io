@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#246B45">
+  <meta name="description" content="روستاک؛ دست‌سازِ محلی، خریدِ آسان">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/roostak-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=3">
+  <title>روستاک | بازار محلی</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" id="homeLink" aria-label="صفحه اصلی روستاک">
+      <img src="./assets/roostak-mark.svg" alt="" class="brand-mark">
+      <span>روستاک</span>
+    </a>
+    <label class="search-box">
+      <span class="sr-only">جست‌وجوی محصولات و فروشندگان</span>
+      <input id="searchInput" type="search" placeholder="جست‌وجوی محصول یا فروشنده..." autocomplete="off">
+      <span aria-hidden="true">⌕</span>
+    </label>
+    <div class="header-actions">
+      <button class="btn btn-outline install-button" id="installBtn" hidden>نصب</button>
+      <button class="account-entry" id="accountEntry"><span id="accountEntryText">ورود</span></button>
+    </div>
+  </header>
+
+  <main id="appMain">
+    <section class="hero">
+      <p class="eyebrow">از دل روستا، برای همه</p>
+      <h1>طعمِ زندگی محلی را <span>پیدا کن.</span></h1>
+      <p>محصولات محلی را ببین و مستقیم با سازنده یا فروشنده ارتباط بگیر.</p>
+    </section>
+    <section class="content-section" id="topSellersSection">
+      <div class="section-heading"><div><p class="eyebrow">آدم‌های پشت محصولات</p><h2>فروشنده‌های برتر</h2></div></div>
+      <div class="seller-row" id="topSellers"><p class="empty-state">فروشنده‌های منتخب به‌زودی اینجا نمایش داده می‌شوند.</p></div>
+    </section>
+    <section class="content-section" id="topProductsSection">
+      <div class="section-heading"><div><p class="eyebrow">انتخاب‌های روستاک</p><h2>محصولات برتر</h2></div></div>
+      <div class="product-row" id="topProducts"><p class="empty-state">هنوز محصول تأییدشده‌ای برای نمایش نداریم.</p></div>
+    </section>
+    <div id="categorySections"></div>
+  </main>
+
+  <main id="authMain" class="page-main" hidden></main>
+  <main id="accountMain" class="page-main" hidden></main>
+
+  <nav class="bottom-nav" aria-label="ناوبری اصلی">
+    <button class="nav-item" id="categoriesNav"><span class="nav-icon">☷</span><span>دسته‌ها</span></button>
+    <button class="nav-item" id="accountNav"><span class="nav-icon">♙</span><span>حساب من</span></button>
+    <button class="nav-item" id="settingsNav"><span class="nav-icon">⚙</span><span>تنظیمات</span></button>
+  </nav>
+
+  <dialog class="modal" id="appModal">
+    <div class="modal-head"><h2 id="modalTitle">تنظیمات</h2><button class="icon-button" id="modalClose" aria-label="بستن">×</button></div>
+    <div id="modalBody"></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="./app.js?v=3"></script>
+</body>
+</html>
