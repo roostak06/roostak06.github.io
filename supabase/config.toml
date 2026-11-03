@@ -1,0 +1,5 @@
+[functions.send-admin-push]
+verify_jwt = false
+
+[functions.admin-ban-seller]
+verify_jwt = true
