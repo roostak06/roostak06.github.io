@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.roostak06.twa",
+      "sha256_cert_fingerprints": [
+        "11:E7:B4:58:B0:FD:03:56:B3:DC:38:41:C8:E8:32:9A:2C:D2:D3:CC:E0:AE:77:2C:D4:6A:6E:95:88:66:7C:2C"
+      ]
+    }
+  }
+]
