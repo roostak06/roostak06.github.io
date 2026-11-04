@@ -2,7 +2,7 @@
 const SUPABASE_URL = "https://livlnryfpbsmsnzixxqy.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_CSFsOwJ2-ekzxrKMN5ceQA_MP2KXsbZ";
 // Replace this with the VAPID public key generated for the Supabase Edge Function.
-const VAPID_PUBLIC_KEY = "PASTE_VAPID_PUBLIC_KEY_HERE";
+const VAPID_PUBLIC_KEY = "f22c1f3055430b28956492f954a9b8f7ea35072227bd67d5c3640d37cf846cbd";
 const DEFAULT_CATEGORIES = ["خوراکی محلی", "عرقیجات و سرکه", "محصولات کشاورزی", "خدمات حضوری", "صنایع دستی"];
 let CATEGORIES = [...DEFAULT_CATEGORIES];
 const INTERNAL_EMAIL_DOMAIN = "users.roostak.invalid";
