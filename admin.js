@@ -2,7 +2,7 @@
   "use strict";
   const SUPABASE_URL = "https://livlnryfpbsmsnzixxqy.supabase.co";
   const SUPABASE_ANON_KEY = "sb_publishable_CSFsOwJ2-ekzxrKMN5ceQA_MP2KXsbZ";
-  const VAPID_PUBLIC_KEY = "REPLACE_WITH_VAPID_PUBLIC_KEY"; // Replace after generating VAPID keys; never put the private key here.
+  const VAPID_PUBLIC_KEY = "BDW7XLu7KoXsO2fArdDGSZOsTrcOW4j_Qleu76UAZXBx-JWKqI4Cr7PHF1G3lg8Bc7Ml7eLJWe3i3u2agunl9Fk"; // Replace after generating VAPID keys; never put the private key here.
   const DEFAULT_CATEGORIES = ["خوراکی محلی","عرقیجات و سرکه","محصولات کشاورزی","خدمات حضوری","صنایع دستی"];
   let CATEGORIES = [...DEFAULT_CATEGORIES];
   const $ = id => document.getElementById(id);
